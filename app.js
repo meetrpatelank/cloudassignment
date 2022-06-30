@@ -20,7 +20,7 @@ app.get('/begin', async function(req,res){
             method: 'post',
             body: JSON.stringify({
                 "banner": "B00897765",
-                "ip": "http://ec2-54-204-138-29.compute-1.amazonaws.com:5000"
+                "ip": "http://ec2-54-204-138-29.compute-1.amazonaws.com:3000"
                 }),
             headers: {'Content-Type': 'application/json'}
 
