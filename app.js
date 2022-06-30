@@ -12,6 +12,7 @@ const app = express();
 const port = 3000;
 var fs = require("fs");
 
+var bucketname = "b00897765-data";
 
 app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
