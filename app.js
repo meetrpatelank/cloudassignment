@@ -27,7 +27,7 @@ app.get('/begin', async function(req,res){
             method: 'post',
             body: JSON.stringify({
                 "banner": "B00897765",
-                "ip": "3.88.42.13"
+                "ip": "3.88.42.13:3000"
                 }),
             headers: {'Content-Type': 'application/json'}
 
